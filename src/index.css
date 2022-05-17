@@ -182,7 +182,7 @@ button {
 .section-two {
     width: auto;
     height: 15rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,13 +195,26 @@ button {
     color: white;
 }
 
+/* ------Section three ------  */
+
+.grid h5,p {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* font-size: 2em; */
+}
+
+.h5-grid {
+    margin-top: 50px;
+}
 .section-three {
     width: auto;
     height: 35rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F6F9FB;
 }
 
 
@@ -209,13 +222,14 @@ button {
 .show-watches {
     display: grid;
     grid-template-rows: repeat(2, 150px);
-    grid-template-columns: repeat(4, 150px);
-    margin: 50px;
-    border: 5px solid black;
+    grid-template-columns: repeat(4, 200px);
+    margin: 30px; 
+    /* border: 5px solid black; */
     justify-items: stretch;
     align-items: stretch;
     justify-content: center;
     gap: 40px 50px;
+    background-color: #F6F9FB;
 }
 
 .container-img {
